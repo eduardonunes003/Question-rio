@@ -1,0 +1,208 @@
+*{
+  margin:0;
+  padding:0;
+  color: rgb(255, 255, 255);
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+:root{
+  --cor-primaria-sucess: rgba(102, 92, 128, 0.76);
+  --cor-secundaria-sucess: rgb(72, 151, 35); 
+}
+
+body{
+  background-image:url(imagens/Futebol.jpg); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  display: grid;
+  justify-items: center;
+  padding: 0%;
+  border: 0;
+  position: relative;
+  z-index: auto;
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.menu{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.header-title{
+  font-size: 14px;
+  padding: 0;
+  border: 0;
+  margin-left: 10px;
+}
+
+.entries{
+  display: flex;
+  gap:2px;
+}
+.su{
+  margin: 6px;
+  border: 0;
+  padding: 0%;
+  width: 70px;
+  height: 35px;
+  border-radius: 00.25rem;
+  background-color: rgb(4, 216, 4);
+  color: #000;
+}
+.su:hover{
+  background-color: rgb(55, 100, 75);
+}
+.li:hover{
+  background-color: rgb(185, 104, 185);
+}
+.li{
+  margin: 6px;
+  border: 0;
+  padding: 0%;
+  width: 70px;
+  height: 35px;
+  border-radius: 00.25rem;
+  background-color: var(--cor-primaria-sucess);
+  color: #fff;
+}
+#title { 
+  line-height: 40px; 
+  background-color: transparent;
+  font-size: 14px;
+  margin: auto;
+  margin-top: 40px;
+  width: 600px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 20px 10px 20px 10px;
+}
+.referência{
+  background-color: transparent;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+}
+#description{
+  line-height: 30px;
+  font-size: 16px;
+  background-color: transparent;
+  padding: 0%;
+  border: 0;
+}
+#content{
+  padding: 40px 30px 30px 30px; 
+  background-color: var(--cor-primaria-sucess);
+  border-radius: 1%;
+  width: 600px;
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  position: center;
+}
+#survey-form{
+  background-color: transparent;
+  position: relative;
+  padding: 40px 30px 30px 30px; 
+  background-color: var(--cor-primaria-sucess);
+  border-radius: 1%;
+  width: 600px; 
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  position:center;
+}
+.form-group {
+  background-color: transparent;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.container{
+  background-color: transparent;
+}
+.resposta{
+  background-color: transparent;
+  font-size:16px;
+  line-height: 30px;
+}
+.respostas{
+  background-color: transparent;
+}
+.indicação{
+  background-color: #ffffff;
+  color: #808080;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  display: grid;
+  justify-content: center;
+}
+
+#dropdown{
+  background-color: white;
+  color:#808080; 
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  padding-left: 0.5em;
+}
+.aprender{
+  background-color: transparent;
+}
+option{
+  background-color: #ffffff;
+  color: #808080;
+}
+.novo-desporto,.desporto-pretendido{
+  font-size:16px;
+  line-height: 30px;
+}
+.desporto-pretendido,.novo-desporto{
+  background-color: transparent;
+}
+#observações{
+  background-color: #ffffff;
+  color: #808080;
+  padding: 0%;
+  margin: 0%;
+  border: 0;
+  border-radius: 0.25rem;
+  padding-left: 0.5em;
+}
+#btn-group{
+  background-color: var(--cor-secundaria-sucess);
+  padding: 0;
+  margin: 0%;
+}
+.button-submit{
+  padding:0;
+  border:0;
+  background-color: var(--cor-secundaria-sucess);
+  outline: none;
+  margin: auto; 
+  margin-top: 0.4cm;
+  margin-bottom: 0.4cm;
+  display: grid;
+}
+input{
+  padding-left: 0.5em;
+}
+input:focus{
+}
+input, textarea{
+  padding-left: 0.5em;
+}
+
+

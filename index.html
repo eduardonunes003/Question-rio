@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Questionários</title>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="menu">
+        <div class="header-title">Práticas Desportivas</div>
+        <div class="entries">
+          <div class="btn-su">  
+            <button type="button" class="su">Sign Up</button>    
+          </div>
+          <div class="btn-Li">
+            <button type="button" class="li">Log In</button>
+          </div>
+        </div>
+      </div>
+    </nav> 
+  </header>
+  <section class="formulario">
+    <div id="title">
+      <div class="title"><h1>Questionário sobre práticas desportivas</h1></div>
+      <div id="description"><p>Obrigado pelo tempo que vocês estão a disponibilizar para a realização deste questionário</p></div>
+    </div>
+    <form id="survey-form">
+      <div class="form-group">
+        <label for="name" class="referência">Nome</label>
+        <input id="name-label" type="text" name="nome" placeholder="Introduz o teu nome" class="indicação">
+      </div>
+      <div class="form-group">
+        <label for="email" class="referência">Email</label>
+        <input id="email-label" type="text" name="email" placeholder="Introduz o teu email" class="indicação" >
+      </div>
+      <div class="form-group">
+        <label for="number" class="referência">Idade</label>
+        <input id="number-label" type="number" textarea="3px" name="number" placeholder="Introduz a tua idade" class="indicação"> 
+      </div>
+      <div class="form-group">
+        <label for="dropdown" class="referência">Em qual das seguintes situações mais te identificas?</label>      
+        <div class="container">
+          <select id="dropdown">
+            <option value="seleciona">Seleciona a tua situação atual</option>
+            <option value="sedentária">Tenho um estilo de vida sedentário</option>
+            <option value="nível1">Exercito uma vez por semana</option>
+            <option value="nível2">Exercito duas a três vezes por semana</option>
+            <option value="nível3">Exercito 4 ou mais vezes por semana</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+              <label for="aprender" class="referência">Estarias disposto a aprender um novo desporto?</label>  
+            <div class="respostas">
+                <div class="resposta">
+                  <input id="sim"  type="radio" value="sim" name="aprender" >
+                  <label for="sim" class="novo-desporto">Sim</label>
+                </div>
+                <div class="resposta">
+                  <input id="não" class="novo-desporto" type="radio" value="sim" name="aprender">
+                  <label for="não" class="novo-desporto" >Não</label>
+                </div>
+                <div class="resposta">
+                  <input id="duvida" type="radio" name="aprender" value="duvida">  
+                  <label for="duvida" class="novo-desporto">Não sei</label>
+                </div>
+            </div>  
+      </div>
+  
+      <div class="form-group">
+        <label for="desporto" class="referência">Se sim, qual seria? </label>
+        <input id="desporto" class="indicação" type="text" name="desporto" placeholder="Introduz um desporto que estarias interessado em experimentar" >
+      </div>
+      <div class="form-group">
+        <div class="container">
+          <label for="desporto-pretendido" class="referência">Imaginas-te a praticar algum destes desportos?</label>
+        </div>
+        <div class="container">
+          <input id="badminton"  type="checkbox" name="badminton">
+          <label class="desporto-pretendido" for="badminton">Badminton</label>
+        </div>
+        <div class="container">
+          <input id="Ténis"  type="checkbox" name="Ténis" value="Ténis">
+          <label class="desporto-pretendido" for="Ténis"> Ténis</label>
+        </div>
+        <div class="container">
+          <input id="futsal"  type="checkbox"  name="futsal">
+          <label class="desporto-pretendido" for="futsal">Futsal</label>
+        </div>
+        <div class="container">
+          <input id="basquetebol" type="checkbox">
+          <label class="desporto-pretendido" for="basquetebol">Basquetebol</label>
+        </div>
+      </div>
+      <div class="form-group">
+          <div class="container">
+            <label for="observações" class="referência">Observações</label>
+          </div>
+          <div class="form-group">
+            <textarea name="observações" id="observações" cols="70" rows="5">Deixa um comentário... </textarea><br>
+          </div>
+      </div>
+      <div id="btn-group">
+          <button  class="button-submit" type="submit">Envia a tua resposta</button> 
+      </div>
+    </form>
+  </section>
+  
+</body>
+</html>
